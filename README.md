@@ -17,7 +17,7 @@
 ***
 
 ## 1. Introduction:
-This is a Demo Landing Page of Netflix. It contains two versions of the Landing Page One is Designed with Pure HTML and CSS which is not responsive and Other one is Designed with using Bootstrap whuch is  responsive.
+This is a Demo Landing Page of Netflix. It contains two versions of the Landing Page One is Designed with Pure HTML and CSS which is not responsive and Other one is Designed with using Bootstrap which is  responsive.
 
 ***
 
@@ -57,7 +57,7 @@ I used following bootstrap classes for the Designing and Resposiveness:
 - **.fs-#** - *for changing the Font size based on the requirment scale from 1-6*
 
 *These Projects are only a demo of the Netflix Home page that holds the same design pattern as Netflix has like Sliders, Hover and Transition effects.*  
-*For the icons I use use font awesome. After successful login, create your kit and use it in head tag. link here for visit :- [Font Awesome](https://fontawesome.com/)*  
+*For the icons I use use font awesome. After successful login, create your kit and use it in head tag.  Link here for visit :- [Font Awesome](https://fontawesome.com/)*  
 
 **NOTE :** *Both Design pages shares the same Assets folder **images** and **videos**.*
 ***
