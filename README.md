@@ -40,9 +40,9 @@ The Design Structure of the Page is as follows:
 
 It holds two Design projects. Both have their indiviual resources except the images and videos folder.  
 Here is the Short Description of both the projects:  
-1. **Written in pure HTML and CSS that hols the files *index.html* and *style.css* :**  
+1. **Written in pure HTML and CSS that holds the files *index.html* and *style.css* :**  
 This Page is not responsive it is only compatible the large screen sizes because I have not used *Media Query* that I will do in future Projects.   
-1. **Used Bootstrap for the Designing that hols the files *bootstrap.html* and *bootstrap.css* :**   
+1. **Used Bootstrap for the Designing that holds the files *bootstrap.html* and *bootstrap.css* :**   
 This Page is fully responsive for all kinds of the screens.  
 I used following bootstrap classes for the Designing and Resposiveness:
 - **.navbar** - *for responsive collapsing.*
