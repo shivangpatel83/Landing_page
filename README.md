@@ -65,8 +65,9 @@ I used following bootstrap classes for the Designing and Resposiveness:
 ## 5. Conclusion :
 
 There you have everything you need to know and learn about this Netflix web Page. You can use this Webpage by cloning it from my Repository and run if you want.  
-Repository Link : [click here](https://github.com/shivangpatel83/Landing_page.git).
-***~
+Repository Link : [click here](https://github.com/shivangpatel83/Landing_page.git).  
+
+***
 
 
 
