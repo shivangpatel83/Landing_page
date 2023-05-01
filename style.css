@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* body{
+    font-size: 1rem;
+} */
+
+.section1{
+    width: 100%;
+    height: 100vh;
+    background: url(./images/img1.jpg) center/cover no-repeat;
+    color: white;
+}
+
+/* navbar-custombar */
+
+.navbar-custom{
+    padding: 5px 40px;
+    display: flex;
+    width: 100%;
+    max-height: 10vh;
+    /* border: 2px solid white; */
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-custombar .logo{
+    display: flex;
+    /* border: 2px solid blue; */
+    align-items: center;
+    cursor: pointer;
+}
+.navbar-custom .logo img{
+    max-width: 150px;
+}
+
+.links ul{
+    display: flex;
+    list-style: none;
+}
+.links ul li{
+    padding: 5px 10px;
+    margin: 0 20px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.links a{
+    text-decoration: none;
+    color: white;
+}
+.links a:hover{
+    color: red;
+}
+
+.searchbar input{
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+.searchbar i{
+    cursor: pointer;
+}
+
+/* desc */
+
+.desc{
+    width: 50%;
+    /* border: 2px solid blue; */
+    height: 60vh;
+    margin-top: 100px;
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title h1{
+    font-size: 50px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    color: red;
+}
+
+.details p span{
+    background-color: red;
+    padding: 0 5px;
+}
+
+.desc .btn{
+    border: none;
+    padding: 5px 30px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;  
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .2s linear;
+    margin-right: 10px;
+}
+
+.desc .btn:hover{
+    transform: scale(1.15);
+    background-color: blue;
+}
+
+.desc .playbtn{
+    background-color: red;
+}
+.desc .listbtn{
+    background-color: black;
+}
+
+.watch{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.watch span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* images/videos */
+
+.section2, .section3{
+background-color: black;
+color: white;
+width: 100%;
+max-height:max-content;
+padding: 10px 0 10px 20px;
+}
+
+.section2 h2{
+    padding-top: 20px;
+}
+
+.images, .media-group, .videos{
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+.images, .videos{
+    /* position: fixed; */
+    grid-auto-columns: 100%;
+    gap: .25rem;
+    scroll-behavior: smooth;
+    overflow: hidden;
+    position: relative;
+}
+
+.media-group{
+    /* border: 2px solid red; */
+    grid-auto-columns: 1fr;
+    gap: .25rem;
+    padding: 1.7rem;
+}
+
+.media-element{
+    /* border: 2px solid blue; */
+    max-height: fit-content;
+    overflow: hidden;
+    transition: all .2s linear;
+}
+
+.media-element img{
+    max-width: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    border-radius: 5px;
+
+}
+
+.section3 .videos video{
+    max-width: 100%;
+    border-radius: 5px;
+
+}
+
+.media-element:hover{
+    transform: scale(1.13);
+
+}
+.next, .previous{
+    position: absolute;
+    z-index: 10;
+    width: 4rem;
+    height: 4rem;
+    background-color: rgb(242, 240, 237);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background: transparent;
+}
+
+a img{
+    width: 1.5rem;
+    height: 3rem;
+}
+
+.next{
+    right:0;
+}
+.prev{
+    left: 0;
+}
+
+/* footer */
+
+.footer{
+    background-color: black;
+    color: white;
+    padding: 40px;
+    width: 100%;
+    height: fit-content;
+}
+.footer .support{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.footer .support ul{
+    list-style: none;
+}
+ .footer .language select{
+    border: none;
+    border-radius: 5px;
+    outline: none;
+ }
+
+ /* responsive */
+
+ @media screen and (max-width:1180px){
+    .navbar-custom{
+        padding: 5px 20px;
+    }
+    .navbar-custom .logo img{
+        max-width: 100px;
+    }
+    .links ul li{
+        margin: 0 10px;
+        font-size: 15px;
+    }
+    .searchbar input{
+        padding: 2px 5px;
+        width: 100px;
+    }
+ }
+
+
+

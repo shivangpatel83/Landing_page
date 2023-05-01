@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/c03e64aa1a.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
+    <title>Netflix | Landing-page</title>
+</head>
+<body>
+    <div class="section1">
+    <nav class="navbar navbar-expand-lg bg-body-transparent">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="bootstrap.html">
+            <img src="./images/logo.png" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="custom-nav nav-link active text-white fs-6" aria-current="page" href="https://www.netflix.com/in/" target="_blank">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="custom-nav nav-link text-white  fs-6" href="https://www.netflix.com/in/" target="_blank">Link</a>
+              </li>
+              <li class="nav-item">
+                <a class="custom-nav nav-link text-white fs-6" href="https://www.netflix.com/in/" target="_blank">Movies</a>
+              </li>
+              <li class="nav-item">
+                <a class="custom-nav nav-link text-white fs-6" href="https://www.netflix.com/in/" target="_blank">Latest</a>
+              </li>
+              <li class="nav-item">
+                <a class="custom-nav nav-link text-white fs-6" href="https://www.netflix.com/in/" target="_blank">My List</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-danger" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <div class="desc mx-3 d-flex flex-column justify-content-around text-white">
+        <div class="title text-danger">
+            <h1>ROCKSTAR</h1>
+        </div>
+        <div class="details">
+            <p>2011 | <span class="bg-danger">18+</span> | 2h 39m | Drama Music Romance</p>
+        </div>
+        <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta perspiciatis optio tempore nemo atque dolores fugit magnam nam quasi quidem voluptatum, fugiat illo nobis consequatur dolore repellat eius adipisci. Quod iusto, officia obcaecati optio minima beatae expedita repellat ducimus rerum fuga alias a nihil fugiat, accusamus odit, velit vero laboriosam!</p>
+        <div class="btns">
+                <Button class="playbtn btn px-3 py 2 text-white">
+                    <i class="fa-solid fa-play"></i>
+                    <span>PLAY</span>
+                </Button>
+                <Button class="listbtn btn px-3 py 2 text-white mx-2">
+                    <i class="fa-solid fa-plus"></i>
+                    <span>MY LIST</span>
+                </Button>
+        </div>
+        <div class="watch d-flex align-items-center">
+            <i class="fa-regular fa-2x fa-circle-play"></i>
+            <span>WATCH TRAILER</span>
+        </div>
+    </div>
+    </div>
+    <div class="section2">
+      <h2 class="pt-4">Images</h2>
+      <div id="carouselImagesControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="media-group  d-flex" id="imageGroup-1">
+              <div class="media-element">
+                  <img src="images/img2.jpg" alt="2 States">
+              </div>
+              <div class="media-element">
+                  <img src="images/img3.jpg" alt="Raid">
+              </div>
+              <div class="media-element">
+                  <img src="images/img4.jpg" alt="Ek Villain">
+              </div>
+             </div>          
+            </div>
+          <div class="carousel-item">
+            <div class="media-group  d-flex" id="imageGroup-2">
+              <div class="media-element">
+                  <img src="images/img5.jpg" alt="War">
+              </div>
+              <div class="media-element">
+                  <img src="images/img6.jpg" alt="Bullet Raja">
+              </div>
+              <div class="media-element">
+                  <img src="images/img7.jpg" alt="Highway">
+              </div>
+             </div>          
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselImagesControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselImagesControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+  </div>
+<div class="section3">
+  <h2 class="pt-2">Videos</h2>
+  <div id="carouselVideoControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="media-group  d-flex" id="imageGroup-1">
+          <div class="media-element">
+            <video controls src="./videos/video1.mp4"></video>
+          </div>
+          <div class="media-element">
+            <video controls src="./videos/video2.mp4"></video>
+          </div>
+          <div class="media-element">
+            <video controls src="./videos/video3.mp4"></video>
+          </div>
+         </div>          
+        </div>
+      <div class="carousel-item">
+        <div class="media-group  d-flex" id="imageGroup-2">
+          <div class="media-element">
+            <video controls src="./videos/video5.mp4"></video>
+          </div>
+          <div class="media-element">
+            <video controls src="./videos/video6.mp4"></video>
+          </div>
+          <div class="media-element">
+            <video controls src="./videos/video7.mp4"></video>
+          </div>
+         </div>          
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselVideoControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselVideoControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+</div>
+<div class="footer p-5">
+  <div class="contact">
+      <h3>Questions? Call 1-844-505-2993</h3>
+  </div>
+  <div class="support d-flex align-items-center justify-content-around my-3">
+      <ul>
+          <li>FAQ</li>
+          <li>Investor Relations</li>
+          <li>Ways to Watch</li>
+          <li>Corporate Information</li>
+          <li>Netflix Originals</li>
+      </ul>
+      <ul>
+          <li>Help Center</li>
+          <li>Jobs</li>
+          <li>Terms of Uses</li>
+          <li>Contact Us</li>
+      </ul>
+      <ul>
+          <li>Account</li>
+          <li>Redeem Gift Cards</li>
+          <li>Privacy</li>
+          <li>Speed Test</li>
+      </ul>
+      <ul>
+          <li>Media Center</li>
+          <li>Buy Gift Cards</li>
+          <li>Cookie Preferences</li>
+          <li>Legel Notices</li>
+      </ul>
+  </div>
+
+  <div class="language">
+      <i class="fa-solid fa-globe"></i>
+      <select name="language" id="language">
+          <option selected value="English">English</option>
+          <option value="French">French</option>
+          <option value="Hindi">Hindi</option>
+      </select>
+  </div>
+</div>
+~
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+
+</body>
+</html>
